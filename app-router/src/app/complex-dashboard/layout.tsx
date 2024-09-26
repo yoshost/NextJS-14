@@ -5,18 +5,23 @@ export default function DashboardLayout({
   users,
   analaysis,
   notification,
+  login,
 }: {
   children: React.ReactNode;
   users: React.ReactNode;
   analaysis: React.ReactNode;
   notification: React.ReactNode;
+  login: React.ReactNode;
 }) {
-  return (
+  const isLogedIn = false;
+  return isLogedIn ? (
     <div>
       <main>{children}</main>
       <Card>{users}</Card>
       <Card>{notification}</Card>
       <Card>{analaysis}</Card>
     </div>
+  ) : (
+    <div>{login}</div>
   );
 }
