@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
   cookies().set("my-set", "settings");
 
   const cookie = cookies().get("my-set");
-  console.log("Cookie from Next Cookies : ", request.cookies.get("my-set"));
+  console.log("Cookie from Next Cookies : ", cookie);
 
   return new Response("<h1>Profile data</h1>", {
     headers: {
