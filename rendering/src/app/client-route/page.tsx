@@ -1,9 +1,10 @@
 "use client";
 
-import { serverSideFunction } from "@/utils/server-utils";
+import { clientSideFunction } from "@/utils/client-utils";
 
 export default function ClientRouterPage() {
   console.log("Client router ");
+  const clientResult = clientSideFunction();
   // const serverResult = serverSideFunction();
   return (
     <>
