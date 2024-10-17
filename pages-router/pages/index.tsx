@@ -1,5 +1,3 @@
-import Image from "next/image";
-import localFont from "next/font/local";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
