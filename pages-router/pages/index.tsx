@@ -13,6 +13,7 @@ export default function Home() {
         <h1>Hello world!</h1>
         <Link href="/blog">Blog</Link>
         <Link href="/product">Product</Link>
+        <Link href="/posts">Posts</Link>
         <button onClick={clickHandler}>Place Order</button>
       </main>
     </>
