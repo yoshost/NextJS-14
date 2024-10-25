@@ -14,7 +14,7 @@ const PostComponent = ({ posts }: { posts: Post[] }) => {
       {posts.map((post) => (
         <div key={post.id}>
           <Link href={`/posts/${post.id}`}>
-          <h2>{post.title}</h2>
+            <h2>{post.title}</h2>
           </Link>
           <p>{post.body}</p>
           <hr />
@@ -29,10 +29,9 @@ export const getStaticProps: GetStaticProps = async () => {
   const data: Post[] = await res.json();
   return {
     props: {
-      posts: data.slice(0,3),
+      posts: data,
     },
   };
 };
 
 export default PostComponent;
-
