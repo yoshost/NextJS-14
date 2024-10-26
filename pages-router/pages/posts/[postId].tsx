@@ -8,35 +8,35 @@ export default function Post({ post }: { post: any }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts`);
-  const posts = await res.json();
-  const paths = posts.map((post: any) => {
-    return {
-      params: {
-        postId: `${post.id}`,
-      },
-    };
-  });
+  // const res = await fetch(`https://jsonplaceholder.typicode.com/posts`);
+  // const posts = await res.json();
+  // const paths = posts.map((post: any) => {
+  //   return {
+  //     params: {
+  //       postId: `${post.id}`,
+  //     },
+  //   };
+  // });
 
   return {
-    // paths: [
-    //   {
-    //     params: {
-    //       postId: "1",
-    //     },
-    //   },
-    //   {
-    //     params: {
-    //       postId: "2",
-    //     },
-    //   },
-    //   {
-    //     params: {
-    //       postId: "3",
-    //     },
-    //   },
-    // ],
-    paths,
+    paths: [
+      {
+        params: {
+          postId: "1",
+        },
+      },
+      {
+        params: {
+          postId: "2",
+        },
+      },
+      {
+        params: {
+          postId: "3",
+        },
+      },
+    ],
+    // paths,
     fallback: false,
   };
 }

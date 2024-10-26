@@ -1,0 +1,24 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper."
+    },
+    {
+      "id": 2,
+      "name": "Chicken Curry",
+      "description": "A flavorful dish made with chicken simmered in a spicy curry sauce."
+    },
+    {
+      "id": 3,
+      "name": "Vegetable Stir Fry",
+      "description": "A quick and healthy dish made with a variety of vegetables sautéed in a light sauce."
+    },
+    {
+      "id": 4,
+      "name": "Beef Tacos",
+      "description": "A Mexican favorite with seasoned beef, fresh toppings, and soft tortillas."
+    }
+  ]
+}
