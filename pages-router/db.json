@@ -20,5 +20,37 @@
       "name": "Beef Tacos",
       "description": "A Mexican favorite with seasoned beef, fresh toppings, and soft tortillas."
     }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "category": "Technology",
+      "title": "AI Breakthrough",
+      "description": "Latest advancements in AI technology have been revealed."
+    },
+    {
+      "id": 2,
+      "category": "Health",
+      "title": "Balanced Diet",
+      "description": "New study shows the benefits of a balanced diet."
+    },
+    {
+      "id": 3,
+      "category": "Sports",
+      "title": "Championship Win",
+      "description": "Local team wins the championship in a thrilling final."
+    },
+    {
+      "id": 4,
+      "category": "Entertainment",
+      "title": "Box Office Smash",
+      "description": "Upcoming movie breaks box-office records before release."
+    },
+    {
+      "id": 5,
+      "category": "World",
+      "title": "Climate Change Meeting",
+      "description": "Global leaders meet to discuss climate change initiatives."
+    }
   ]
 }
