@@ -20,7 +20,10 @@ export default function NewsListByCategory({
 }
 
 export async function getServerSideProps(context: any) {
-  const { params } = context;
+  const { params, req, res, query } = context;
+  console.log("Query", query);
+  console.log("Cookies", req.headers.cookie);
+  res.setHeader("Set-Cookie", ["name=John Doe"]);
   const { category } = params;
   const response = await fetch(
     `http://localhost:3001/news?category=${category}`
