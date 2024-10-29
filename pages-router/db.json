@@ -1,4 +1,9 @@
 {
+  "dashboard": {
+    "likes": 10,
+    "views": 250,
+    "follwers": 500
+  },
   "recipes": [
     {
       "id": 1,
