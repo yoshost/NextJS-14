@@ -57,5 +57,167 @@
       "title": "Climate Change Meeting",
       "description": "Global leaders meet to discuss climate change initiatives."
     }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "eventName": "Tech Conference",
+      "description": "Annual technology conference focusing on cutting-edge innovations.",
+      "title": "Innovate 2023",
+      "category": "Technology",
+      "date": "2023-11-15"
+    },
+    {
+      "id": 2,
+      "eventName": "Health Expo",
+      "description": "Exhibition showcasing the latest in health and wellness products.",
+      "title": "Wellness 2023",
+      "category": "Health",
+      "date": "2023-12-01"
+    },
+    {
+      "id": 3,
+      "eventName": "Art Festival",
+      "description": "A celebration of art with exhibitions, workshops, and performances.",
+      "title": "Artistry 2023",
+      "category": "Entertainment",
+      "date": "2023-10-20"
+    },
+    {
+      "id": 4,
+      "eventName": "Startup Meetup",
+      "description": "Networking event for startups and entrepreneurs.",
+      "title": "Startup Connect",
+      "category": "Business",
+      "date": "2023-11-07"
+    },
+    {
+      "id": 5,
+      "eventName": "Music Festival",
+      "description": "Enjoy live music performances from various genres.",
+      "title": "Soundscape 2023",
+      "category": "Entertainment",
+      "date": "2023-12-10"
+    },
+    {
+      "id": 6,
+      "eventName": "Science Fair",
+      "description": "An event showcasing scientific projects and innovations.",
+      "title": "Science 2023",
+      "category": "Education",
+      "date": "2023-11-22"
+    },
+    {
+      "id": 7,
+      "eventName": "Food Festival",
+      "description": "A culinary event featuring dishes from around the world.",
+      "title": "Gastronomy 2023",
+      "category": "Lifestyle",
+      "date": "2023-10-15"
+    },
+    {
+      "id": 8,
+      "eventName": "Fashion Show",
+      "description": "Showcasing the latest trends in fashion and design.",
+      "title": "Fashion Forward",
+      "category": "Lifestyle",
+      "date": "2023-11-10"
+    },
+    {
+      "id": 9,
+      "eventName": "Literature Symposium",
+      "description": "A gathering of authors and literary enthusiasts.",
+      "title": "LitFest 2023",
+      "category": "Education",
+      "date": "2023-12-05"
+    },
+    {
+      "id": 10,
+      "eventName": "Charity Gala",
+      "description": "A formal event to raise funds for a charitable cause.",
+      "title": "Gala 2023",
+      "category": "Social",
+      "date": "2023-11-18"
+    },
+    {
+      "id": 11,
+      "eventName": "Film Festival",
+      "description": "Screenings of films from around the world with industry panels.",
+      "title": "Cinema 2023",
+      "category": "Entertainment",
+      "date": "2023-12-12"
+    },
+    {
+      "id": 12,
+      "eventName": "Marathon",
+      "description": "Annual marathon event for runners of all abilities.",
+      "title": "Run 2023",
+      "category": "Sports",
+      "date": "2023-10-22"
+    },
+    {
+      "id": 13,
+      "eventName": "Photography Exhibition",
+      "description": "Showcasing the work of emerging and established photographers.",
+      "title": "Lens 2023",
+      "category": "Art",
+      "date": "2023-11-25"
+    },
+    {
+      "id": 14,
+      "eventName": "Cultural Fair",
+      "description": "Celebrating cultural diversity with performances and exhibits.",
+      "title": "Cultural 2023",
+      "category": "Social",
+      "date": "2023-12-08"
+    },
+    {
+      "id": 15,
+      "eventName": "Tech Workshop",
+      "description": "Hands-on workshop exploring the latest technology trends.",
+      "title": "Tech 2023",
+      "category": "Technology",
+      "date": "2023-11-02"
+    },
+    {
+      "id": 16,
+      "eventName": "Book Fair",
+      "description": "Meet authors and explore a diverse selection of books.",
+      "title": "Books 2023",
+      "category": "Education",
+      "date": "2023-12-03"
+    },
+    {
+      "id": 17,
+      "eventName": "Dance Competition",
+      "description": "A competitive event showcasing talented dance groups.",
+      "title": "Dance 2023",
+      "category": "Entertainment",
+      "date": "2023-10-30"
+    },
+    {
+      "id": 18,
+      "eventName": "Job Fair",
+      "description": "Connect with potential employers and explore career options.",
+      "title": "Careers 2023",
+      "category": "Business",
+      "date": "2023-11-12"
+    },
+    {
+      "id": 19,
+      "eventName": "Yoga Retreat",
+      "description": "A relaxing retreat focusing on yoga and mindfulness.",
+      "title": "Zen 2023",
+      "category": "Health",
+      "date": "2023-12-15"
+    },
+    {
+      "id": 20,
+      "eventName": "Wine Tasting",
+      "description": "Sample a variety of wines and learn from sommeliers.",
+      "title": "Vino 2023",
+      "category": "Lifestyle",
+      "date": "2023-11-20"
+    }
   ]
 }
