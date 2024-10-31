@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import style from "../styles/Dashboard.module.scss";
 
 type DashboardData = {
   likes: number;
@@ -26,7 +27,7 @@ export default function Dashboard() {
 
   return (
     <>
-      <h1>Dashboard</h1>
+      <h1 className={style.myTitleScss}>Dashboard</h1>
       <h2>Likes : {dasboardData?.likes}</h2>
       <h2>Followers : {dasboardData?.follwers}</h2>
       <h2>Views : {dasboardData?.views}</h2>
