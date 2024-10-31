@@ -37,7 +37,7 @@ export async function getStaticProps(context: any) {
   const commentId = params.commentId;
   const comment = comments.find((comment) => comment.id === Number(commentId));
 
-  //Don't do this if you have call own API.
+  //Don't do this if you have call own API. This is a delay and roundtrip.
   //   const res = await fetch(
   //     `http://localhost:3001/comments/${params.commentId}`
   //   );
